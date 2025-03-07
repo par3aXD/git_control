@@ -1,0 +1,3 @@
+D:/term 2/OOP/tmarin 1/git control/cmake-build-debug/CMakeFiles/git_control.dir
+D:/term 2/OOP/tmarin 1/git control/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/term 2/OOP/tmarin 1/git control/cmake-build-debug/CMakeFiles/rebuild_cache.dir
