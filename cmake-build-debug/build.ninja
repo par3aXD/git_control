@@ -61,6 +61,12 @@ build CMakeFiles/git_control.dir/student.cpp.obj: CXX_COMPILER__git_control_unsc
   OBJECT_DIR = CMakeFiles\git_control.dir
   OBJECT_FILE_DIR = CMakeFiles\git_control.dir
 
+build CMakeFiles/git_control.dir/Course.cpp.obj: CXX_COMPILER__git_control_unscanned_Debug D$:/term$ 2/OOP/tmarin$ 1/git$ control/Course.cpp || cmake_object_order_depends_target_git_control
+  DEP_FILE = CMakeFiles\git_control.dir\Course.cpp.obj.d
+  FLAGS = -g -std=gnu++1z -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\git_control.dir
+  OBJECT_FILE_DIR = CMakeFiles\git_control.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target git_control
@@ -69,7 +75,7 @@ build CMakeFiles/git_control.dir/student.cpp.obj: CXX_COMPILER__git_control_unsc
 #############################################
 # Link the executable git_control.exe
 
-build git_control.exe: CXX_EXECUTABLE_LINKER__git_control_Debug CMakeFiles/git_control.dir/main.cpp.obj CMakeFiles/git_control.dir/student.cpp.obj
+build git_control.exe: CXX_EXECUTABLE_LINKER__git_control_Debug CMakeFiles/git_control.dir/main.cpp.obj CMakeFiles/git_control.dir/student.cpp.obj CMakeFiles/git_control.dir/Course.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\git_control.dir

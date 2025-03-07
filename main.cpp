@@ -1,5 +1,6 @@
 #include <iostream>
 #include "student.h"
+#include "Course.h"
 using namespace std;
 
 int main(){
